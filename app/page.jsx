@@ -1,3 +1,4 @@
 export default function Page() {
-  return <h1>Hello, Escuchador</h1>
+  return <h1>Hello, Escuchador. Gracias por estar aquí, presente</h1> 
+  
 }
