@@ -1,9 +1,9 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-[#EDF0EA]">
       {/* Hero Section */}
-    <section className="relative h-[80vh] mb-10 flex items-center justify-start hero-section"
+<section className="relative h-[80vh] mb-10 flex items-center justify-start hero-section " 
   style={{
     backgroundImage: "url('/tu-imagen.png')",
     backgroundSize: "cover",
@@ -11,15 +11,11 @@ export default function Home() {
   }}
 >
   <div className="absolute inset-0 bg-black/40" />
-  <div className="relative z-10 mx-auto w-full max-w-5xl px-4">
-    <div className=""> 
-      <h4 className="text-white text-sm md:text-base font-light">INAUGURACIÓN</h4>
-      <h1 className="!m-0 text-3xl md:text-6xl font-extrabold leading-none text-white">
-        EL PRIMER ESCUCHADOR EN EL PERÚ
-      </h1>
-      <h4 className="!m-0 text-white text-xl md:text-2xl">
-        PARQUE NACIONAL TINGO MARÍA
-      </h4>
+    <div className="relative z-10 mx-auto w-full max-w-5xl px-4">
+      <div className=""> 
+        <h4 className="text-white text-sm md:text-base font-light">INAUGURACIÓN</h4>
+          <h1 className="!m-0 text-3xl md:text-6xl font-extrabold leading-none text-white">EL PRIMER ESCUCHADOR EN EL PERÚ</h1>
+        <h4 className="!m-0 text-white text-xl md:text-2xl">PARQUE NACIONAL TINGO MARÍA </h4>
     </div>
   </div>
 </section>
@@ -29,17 +25,28 @@ export default function Home() {
   {/* Sección texto */}
   <section>
     <p>Así como hay miradores también deberían existir escuchadores para proteger lo más valioso que tenemos: <b>La vida</b></p>
-    <h2>ESCUCHAR PARA PROTEGER</h2>
-    <p>Una experiencia que devela la interconexión de la naturaleza y nuestra dependencia con ella a partir de la escucha profunda con la ayuda de tres artefactos de escucha de diferentes dimensiones con propósitos distintos..</p>
+      <h2>ESCUCHAR PARA PROTEGER</h2>
+    <p>Una experiencia que devela la interconexión de la naturaleza y nuestra dependencia con ella a partir 
+      de la escucha profunda con la ayuda de tres artefactos de escucha de diferentes dimensiones con propósitos distintos.</p>
   </section>
 
   {/* Grid de imágenes */}
   <section>
     <div>
-      <img src="/foto3.png" alt="foto película" className="rounded-lg w-full h-auto" />
+      <img src="/foto3.png" alt="foto película" className="rounded-lg w-full h-auto" /> 
+    </div>
+<div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+      <iframe
+        width="600"
+        height="315"
+        src="https://www.youtube.com/embed/kFy11JjJh0Q?si=QWO6ZOyqL8SrLhXd&amp"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen></iframe>
     </div>
   </section>
 </div>
+
 
    
       {/* Sección final */}
@@ -87,47 +94,88 @@ export default function Home() {
   </section>
 </div>        
        
+       
         
       <section className="px-10 py-12 max-w-5xl text-left">
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-1">
           <img src="/fondo_escuchadores.png" alt="foto película" className="rounded-lg w-full h-auto" />
         </div>
-         <h2>COMO LLEGAR</h2>
-        <p className="mt-6 space-y-4 leading-relaxed md:container md:mx-auto"> Tingo Maria se encuentra conectada por la carretera central y un aeropuerto. 
-Llegar a Tingo Maria por cualquier medio es un experiencia fabulosa, ya que estamos hablando de la entrada de la selva. 
-Una vez en Tingo Maria, puedes encontrar diferentes formas de llegar hasta el tercer sector donde se encuentra la catarata más próxima Gloriapata en el Parque Nacional Tingo Maria.  
- </p>
+
+        
       </section>    
       </section>
-      
+ <div className="seccion-doble">
+  <section> <h2>UNA CAMINATA SONORA</h2>
+  
+<p className="mt-6 space-y-4 leading-relaxed md:container md:mx-auto"> 
+  El escuchador da la bievenida a una de las rutas más importantes del Parque Nacional Tingo Maria 
+  con un paisaje sonoro increíble, la ruta empieza en el escuchador con un lavado de escucha, 
+  intentado identificar todos los sonidos que aparecen en la naturaleza 
+  para luego empezar la caminata y encontrar. La ruta empieza 
+  con una de las quebradas al lado derecho que desemboca en el Huallaga. 
+  Te recomiendamos que camines lentamente y guardes silencio. 
+  Obviamente evitar llevar parlantes o speakers, y si ves que alguien 
+  lo lleva invitalo a que lo apague y escuche los sonidos.</p>
+  <ul>
+
+  <li>Ejercicio 1: </li>Intenta reconocer los sonidos más permanentes, 
+  los que siempre se repiten.<li>Ejercicio 2: </li> Identifica los sonidos que no 
+  logras reconcer su fuente, si es un insecto ave o animal. 
+  <li>Ejercicio 3:</li> imagina como se ven esos sonidos como son esos animales, insectos o plantas</ul>
+  </section>
+  <section>
+<div className="flex justify-center">
+      <iframe
+        src="https://www.instagram.com/reel/DNgQ56nRll5/embed"
+        width="350"
+        height="550"
+     
+        allowFullScreen
+      ></iframe>
+    </div>
+
+
+  </section>
+   
+  
+  
+  
+  
+  </div>     
 
       
-      <div className="container mx-auto">
-     <div className="w-full flex justify-center">
+
+
+
+
+  <section className="max-w-6xl mx-auto px-4 mt-10">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    {/* Columna 1: Texto */}
+    <div>
+      <h2 className="text-2xl font-bold">COMO LLEGAR</h2>
+        <p className=" mt-6 leading-relaxed">
+          Tingo Maria se encuentra conectada por la carretera central y un aeropuerto.
+          Llegar a Tingo Maria por cualquier medio es una experiencia fabulosa, ya que
+          estamos hablando de la entrada de la selva.
+          Una vez en Tingo Maria, puedes encontrar diferentes formas de llegar hasta el
+          tercer sector donde se encuentra la catarata más próxima Gloriapata en el
+          Parque Nacional Tingo Maria.
+        </p>
+    </div>
+
+    {/* Columna 2: Mapa */}
+    <div className="w-full flex justify-center">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9573.527889166904!2d-75.97629829168054!3d-9.420395974162815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a645c9a6f33063%3A0x1e7fc83b831556e0!2sTingo%20Mar%C3%ADa%20-%20Puesto%20de%20Control%20y%20Vigilancia%203%20de%20Mayo%20-%20Sernanp%20National%20Park!5e1!3m2!1sgl!2ses!4v1757531279840!5m2!1sgl!2ses"
-        width="600"
-        height="450"
+        className="w-full h-[400px] rounded-xl shadow-lg"
         style={{ border: 0 }}
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
     </div>
-       
-      </div>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/kFy11JjJh0Q?si=iBqzJIXBJfVt9j6m"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
-    </div>
+  </div>
+</section>
 
       {/* Footer */}
       {/* Spotify botón/ícono */}

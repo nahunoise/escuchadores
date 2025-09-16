@@ -1,6 +1,44 @@
 import "./globals.css";
 import { Rubik } from "next/font/google";
+const siteUrl = "https://www.escuchadores.com";
+const titleDefault = "Escuchadores — Parque Nacional Tingo María";
+const description =
+  "Proyecto de escucha profunda en el Parque Nacional Tingo María (Perú). Una experiencia inmersiva para proteger la vida a través del sonido.";
 
+export const metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: titleDefault,
+    template: "%s — Escuchadores",
+  },
+  description,
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    title: titleDefault,
+    description,
+    siteName: "Escuchadores",
+    locale: "es_PE",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Escuchadores — Parque Nacional Tingo María",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: titleDefault,
+    description,
+    images: ["/og.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -13,7 +51,7 @@ export default function RootLayout({ children}) {
     <html lang="en">
       <body className={rubik.className}>
         
-        <header className="w-full bg-white">
+        <header className="w-full bg-[#EDF0EA]">
           <nav className="relative flex items-center gap-20px">
             {/* Logo a la izquierda */}
             <div className="flex">

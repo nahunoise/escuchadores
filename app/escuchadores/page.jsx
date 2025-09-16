@@ -1,6 +1,6 @@
 export default function escuchadoresPage() {
    return (
-    <main className="px-6 py-16 max-w-4xl mx-auto">
+    <main className="px-6 py-16 max-w-4xl mx-auto bg-[#EDF0EA]">
       <h1 className="text-3xl md:text-5xl font-extrabold text-[#4D4D4D]">
         El primer escuchador esta en Tingo Maria, Perú
       </h1>
@@ -39,7 +39,7 @@ TAMBIEN DEBEN EXISTIR ESCUCHADORES</p>
   />
 </section>          
 <p>El primer escuchador da el inicio a una ruta que tiene un paisaje sonoro único, en el podrás encontrar diferentes tipos de sonidos desde los insectos, aves, rio y sonidos de los árboles y vegetación. Te aninamos que estes atento a cada paso, el camino 
-            es corto y se disfruta más si se va con atención. Es la misma ruta que te lleva a la catarata de Gloriapata
+  es corto y se disfruta más si se va con atención. Es la misma ruta que te lleva a la catarata de Gloriapata
           </p>
         <h3>Recomendaciones para escuchar mejor</h3>
         <li>No lleves parlantes, ni celular con música, si lo haces no entendiste nada</li>
