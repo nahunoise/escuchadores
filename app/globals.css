@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
 /* Reset básico */
 a {
   text-decoration: none;
-  padding: 5;
+  padding: 0px;
   padding-left: 0%;
   color: #4D4D4D;
 }
@@ -17,48 +18,41 @@ body {
   
 }
 
+/* Base = mobile */
 h1 {
-  margin: 0;   
-  padding-left: 10%;
-  padding-right: 40%;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-  
-  
+  margin: 0;
+  padding-inline: 0rem;          /* menos padding en mobile */
+  font-size: clamp(14px, 7vw, 60px); /* crece desde 24px hasta 60px según el ancho */
+  color: #fff;
 }
 
+/* En pantallas grandes vuelve el padding amplio */
+@media (min-width: 1024px) {      /* lg */
+  h1 { padding-inline: 0%; }
+}
 
 h2 {
   margin: 0%;
   font-size: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   
 }
 
 h3 {
   margin: 0%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   
   
 }
 
-h4 {
-  margin: 0;   
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-  
-  
-  
-}
+
 
 p {
   margin: 0%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -73,12 +67,12 @@ ul {
 
 
 img {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .hero-section {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .seccion-doble {
@@ -118,3 +112,14 @@ img {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

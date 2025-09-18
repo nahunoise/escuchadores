@@ -1,9 +1,9 @@
-import "./globals.css";
-import { Rubik } from "next/font/google";
-const siteUrl = "https://www.escuchadores.com";
-const titleDefault = "Escuchadores — Parque Nacional Tingo María";
+import "./globals.css"
+import { Rubik } from "next/font/google"
+const siteUrl = "https://www.escuchadores.com"
+const titleDefault = "Escuchadores — Parque Nacional Tingo María"
 const description =
-  "Proyecto de escucha profunda en el Parque Nacional Tingo María (Perú). Una experiencia inmersiva para proteger la vida a través del sonido.";
+  "Proyecto de escucha profunda en el Parque Nacional Tingo María (Perú). Una experiencia inmersiva para proteger la vida a través del sonido."
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -38,29 +38,26 @@ export const metadata = {
     index: true,
     follow: true,
   },
-};
+}
 
 const rubik = Rubik({
   subsets: ["latin"],
   display: "swap",
   weight: ["300", "400", "500", "600", "700", "800", "900"], // ajusta los pesos que realmente uses
-});
+})
 
-export default function RootLayout({ children}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={rubik.className}>
-        
-        <header className="w-full bg-[#EDF0EA]">
-          <nav className="relative flex items-center gap-20px">
+      <body className={`${rubik.className} bg-[#EDF0EA]`}>
+        <header className="w-full">
+          <nav className="relative flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
             {/* Logo a la izquierda */}
             <div className="flex">
-              
               <img
                 src="logo_escuchadores_desktop.svg"
                 alt="PrintForge Logo"
                 href="/"
-               
                 className="w-[100px] h-auto hidden md:block"
               />
               <img
@@ -70,21 +67,37 @@ export default function RootLayout({ children}) {
               />
             </div>
 
-            {/* Menú centrado */}
-            <nav>
-    <ul className="flex items-center space-x-20 list-none p-0 m-0 tracking-wide">
-    <li><a href="/" className="hover:underline">Inicio</a></li>
-    <li><a href="/manifiesto" className="hover:underline">Ser</a></li>
-    <li><a href="/servicios" className="hover:underline">Hacer</a></li>
-    <li><a href="/contacto" className="hover:underline">Contacto</a></li>
-  </ul>
-</nav>
+            <nav className="absolute left-1/2 transform -translate-x-1/2">
+              <ul className="flex items-center space-x-8 list-none p-0 m-0 tracking-wide">
+                <li>
+                  <a href="/" className="hover:underline transition-all duration-200">
+                    Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="/manifiesto" className="hover:underline transition-all duration-200">
+                    Ser
+                  </a>
+                </li>
+                <li>
+                  <a href="/servicios" className="hover:underline transition-all duration-200">
+                    Hacer
+                  </a>
+                </li>
+                <li>
+                  <a href="/contacto" className="hover:underline transition-all duration-200">
+                    Contacto
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div className="w-[100px] hidden md:block"></div>
+            <div className="w-[80px] block md:hidden"></div>
           </nav>
         </header>
         {children}
       </body>
-
-      
     </html>
-  );
+  )
 }
