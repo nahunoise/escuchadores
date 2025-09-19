@@ -43,7 +43,7 @@ export default function Home() {
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">ESCUCHAR PARA PROTEGER</h2>
             <p className="text-base leading-relaxed text-gray-600">
-              Una experiencia que devela la interconexión de la naturaleza y nuestra dependencia con ella a partir de la
+              Una experiencia que devela la interconexión de la naturaleza y nuestra intedependencia con ella a partir de la
               escucha profunda con la ayuda de tres artefactos de escucha de diferentes dimensiones con propósitos
               distintos.
             </p>
@@ -202,7 +202,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-6 lg:px-8 mb-16 text-center">
         <a
           href="https://open.spotify.com/playlist/4FZgnX88YC2oLipzEh4FpY?si=JSHHFiAzRhywgR1ZZ8Strg"
-          className="inline-flex items-center gap-3 px-6 py-3 bg-[#000000] text-white rounded-lg font-medium hover:bg-[#EDF0EA] transition-colors duration-200"
+          className="inline-flex items-center gap-3 px-6 py-3 bg-[#EDF0EA] text-white rounded-lg font-medium hover:bg-[#EDF0EA] transition-colors duration-200"
         >
           <img src="/spotify-icon.svg" alt="Spotify" className="w-6 h-6" />
           Escucha la playlist
