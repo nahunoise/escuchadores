@@ -58,17 +58,17 @@ export default function RootLayout({ children }) {
                 src="logo_escuchadores_desktop.svg"
                 alt="PrintForge Logo"
                 href="/"
-                className="w-[100px] h-auto hidden md:block"
+                className="w-[80px] h-auto hidden md:block"
               />
               <img
                 src="logo_escuchadores_desktop.svg"
                 alt="PrintForge Logo"
-                className="w-[80px] h-auto block md:hidden"
+                className="w-[30px] h-auto block md:hidden"
               />
             </div>
 
             <nav className="absolute left-1/2 transform -translate-x-1/2">
-              <ul className="flex items-center space-x-8 list-none p-0 m-0 tracking-wide">
+              <ul className="flex items-center space-x-4 list-none p-0 m-0 tracking-wide">
                 <li>
                   <a href="/" className="hover:underline transition-all duration-200">
                     Inicio

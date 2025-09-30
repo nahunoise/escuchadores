@@ -20,13 +20,12 @@ export default function Home() {
             <h4 className="text-white text-sm md:text-base font-light mb-8">PARQUE NACIONAL TINGO MARÍA</h4>
             <a
               href="#empezar"
-              className="inline-flex items-center justify-center rounded-lg border border-[#1E293B] bg-white px-6 py-3 text-sm font-medium text-[#1E293B]
-                         hover:border-transparent hover:bg-[#1E293B] hover:text-white
+              className="inline-flex items-center justify-center rounded-lg border border-[#1E293B] bg-white px-12 h-9 text-large font-medium text-[#1E293B]
+                         hover:border-transparent hover:bg-[#1E293B] hover:text-white 
                          active:bg-[#1E293B]
                          focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1E293B] focus-visible:ring-offset-2
-                         disabled:opacity-50 disabled:cursor-not-allowed
-                         transition-colors duration-200"
-            >
+                         disabled:opacity-30 disabled:cursor-not-allowed
+                         transition-colors duration-200 min-w-[250px]">
               EMPEZAR
             </a>
           </div>
@@ -34,19 +33,27 @@ export default function Home() {
       </section>
 
       <div className="max-w-6xl mx-auto px-6 lg:px-8 mb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div  className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Sección texto */}
-          <section id="empezar" className="space-y-6">
+          <section id="empezar"  className="space-y-6">
             <p className="text-lg leading-relaxed text-gray-700">
               Así como hay miradores también deberían existir escuchadores para proteger lo más valioso que tenemos:{" "}
               <strong>La vida</strong>
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">ESCUCHAR PARA PROTEGER</h2>
             <p className="text-base leading-relaxed text-gray-600">
-              Una experiencia que devela la interconexión de la naturaleza y nuestra intedependencia con ella a partir de la
-              escucha profunda con la ayuda de tres artefactos de escucha de diferentes dimensiones con propósitos
-              distintos.
-            </p>
+              Esta experiencia busca mostrar nuestra conexión con la naturaleza a través de la escucha profunda, usando tres artefactos sonoros de distintos tamaños y propósitos.</p>
+            <li> <b>La oreja más grande</b> sirve para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
+             árboles en movimiento, mamiferos con vocalización de largo alcance. Esta medida nos acerca a eso que no podemos presenciar tan de cerca.</li> 
+                    <li> <b>La oreja mmediana</b> sirve para contemplar los sonidos de mamiferos, aves, voces y 
+                    todo lo que se encuentre a mediana alcance entre 2 a 3 km según la fuente sonora</li> 
+                     <li> <b>La oreja pequeña</b> sirve para contemplar los sonidos más pequeños insectos, susurros, todo lo que se encuentra alrededor del escuchador pero más cerca</li> 
+                
+<p>Creemos que conectarnos con la naturaleza ayuda a construir un mundo mejor, y la escucha profunda es una buena forma de empezar.
+Necesitamos comunidades que se escuchen entre sí y a su entorno para ser más resilientes y vivir en armonía con el planeta.
+El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, uno de los más importantes del Perú.</p>
+
+            
           </section>
 
           {/* Grid de imágenes */}
@@ -71,10 +78,10 @@ export default function Home() {
 
       <section className="px-6 lg:px-8 py-16 max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-4xl font-bold leading-tight text-gray-900 mb-8">
-          <span className="block">SI HAY VIDA, HAY SONIDO.</span>
-          <span className="block">EL SONIDO NOS ATRAVIESA,</span>
+          <span className="block">SI HAY VIDA, HAY SONIDOS.</span>
+          <span className="block">LOS SONIDOS NOS ATRAVIESAN Y TRANSFORMAN</span>
           <span className="block text-lg md:text-2xl font-normal text-gray-600 mt-4">
-            Para cuidarla tenemos que escucharla
+            Para cuidarnos primero tenemos que escucharnos, no hay  empatia posible sin una escucha honesta y lo mismo pasa con todos los seres que habitamos en este planeta
           </span>
         </h2>
       </section>
