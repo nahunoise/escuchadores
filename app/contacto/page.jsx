@@ -5,7 +5,7 @@ export default function ContactoPage() {
         <h3 className="text-3xl md:text-5xl font-extrabold text-[#4D4D4D] mb-8">Mantengamos la conexión</h3>
 
         <div className="mb-12">
-          <p className="text-lg text-[#4D4D4D] mb-4">nahunoise@gmail.com</p>
+          <p className="text-lg text-[#4D4D4D] mb-4">nahun.saldana.macedo@gmail.com</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

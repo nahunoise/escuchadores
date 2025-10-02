@@ -8,8 +8,7 @@ export default function Home() {
           backgroundImage: "url('/tu-imagen.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-        }}
-      >
+        }}> 
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 mx-auto w-full max-w-6xl px-6 lg:px-8">
           <div className="max-w-2xl">
@@ -45,7 +44,7 @@ export default function Home() {
               Esta experiencia busca mostrar nuestra conexión con la naturaleza a través de la escucha profunda, usando tres artefactos sonoros de distintos tamaños y propósitos.</p>
             <li> <b>La oreja más grande</b> sirve para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
              árboles en movimiento, mamiferos con vocalización de largo alcance. Esta medida nos acerca a eso que no podemos presenciar tan de cerca.</li> 
-                    <li> <b>La oreja mmediana</b> sirve para contemplar los sonidos de mamiferos, aves, voces y 
+                    <li> <b>La oreja mediana</b> sirve para contemplar los sonidos de mamiferos, aves, voces y 
                     todo lo que se encuentre a mediana alcance entre 2 a 3 km según la fuente sonora</li> 
                      <li> <b>La oreja pequeña</b> sirve para contemplar los sonidos más pequeños insectos, susurros, todo lo que se encuentra alrededor del escuchador pero más cerca</li> 
                 
