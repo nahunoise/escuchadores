@@ -32,7 +32,10 @@ body {
 }
 
 .content h3 {
-  margin: 0;
+   margin: 0;
+  padding-inline: 0;
+  font-size: clamp(14px, 7vw, 60px);
+  color: #fff;
 }
 
 .content p {

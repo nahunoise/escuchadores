@@ -28,28 +28,38 @@ export const metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: titleDefault,
     description,
     images: ["/og.jpg"],
   },
+
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // opcional, si tienes una versión para iOS
+  },
+
   robots: {
     index: true,
     follow: true,
   },
+
+
 }
 
 const rubik = Rubik({
   subsets: ["latin"],
   display: "swap",
-  weight: ["300", "400", "500", "600", "700", "800", "900"], // ajusta los pesos que realmente uses
+  weight: ["300", "400", "500", "600", "700"], // ajusta según lo que uses
 })
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${rubik.className} bg-[#EDF0EA]`}>
+     <body className={`${rubik.className} bg-[#EDF0EA]`}>
         <header className="w-full">
           <nav className="relative flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
             {/* Logo a la izquierda */}
@@ -97,7 +107,14 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
+         <footer className="text-center py-8 text-sm text-gray-500">
+  © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por www.naun.xyz.
+</footer>
       </body>
+     
     </html>
+    
   )
 }
+
+

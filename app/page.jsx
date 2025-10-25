@@ -9,14 +9,15 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}> 
+     
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 mx-auto w-full max-w-6xl px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h4 className="text-white text-sm md:text-base font-light mb-2">INAUGURACIÓN</h4>
+            <h4 className="text-white text-sm md:text-base font-light mb-2">TODOS SOMOS ESCUCHADORES</h4>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-white mb-4">
-              EL PRIMER ESCUCHADOR EN EL PERÚ
+             ESCUCHAR PARA PROTEGERNOS
             </h1>
-            <h4 className="text-white text-sm md:text-base font-light mb-8">PARQUE NACIONAL TINGO MARÍA</h4>
+            <h4 className="text-white text-sm md:text-base font-light mb-8"> Así como hay miradores deben existir escuchadores, el primero ya lo instalamos en el PARQUE NACIONAL TINGO MARÍA</h4>
             <a
               href="#empezar"
               className="inline-flex items-center justify-center rounded-lg border border-[#1E293B] bg-white px-12 h-9 text-large font-medium text-[#1E293B]
@@ -25,8 +26,7 @@ export default function Home() {
                          focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1E293B] focus-visible:ring-offset-2
                          disabled:opacity-30 disabled:cursor-not-allowed
                          transition-colors duration-200 min-w-[250px]">
-              EMPEZAR
-            </a>
+DESCUBRIR            </a>
           </div>
         </div>
       </section>
@@ -35,22 +35,22 @@ export default function Home() {
         <div  className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Sección texto */}
           <section id="empezar"  className="space-y-6">
-            <p className="text-lg leading-relaxed text-gray-700">
-              Así como hay miradores también deberían existir escuchadores para proteger lo más valioso que tenemos:{" "}
-              <strong>La vida</strong>
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">ESCUCHAR PARA PROTEGER</h2>
+            
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">CONEXIÓN SONORA E INMERSIVA</h2>
             <p className="text-base leading-relaxed text-gray-600">
-              Esta experiencia busca mostrar nuestra conexión con la naturaleza a través de la escucha profunda, usando tres artefactos sonoros de distintos tamaños y propósitos.</p>
-            <li> <b>La oreja más grande</b> sirve para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
-             árboles en movimiento, mamiferos con vocalización de largo alcance. Esta medida nos acerca a eso que no podemos presenciar tan de cerca.</li> 
-                    <li> <b>La oreja mediana</b> sirve para contemplar los sonidos de mamiferos, aves, voces y 
-                    todo lo que se encuentre a mediana alcance entre 2 a 3 km según la fuente sonora</li> 
-                     <li> <b>La oreja pequeña</b> sirve para contemplar los sonidos más pequeños insectos, susurros, todo lo que se encuentra alrededor del escuchador pero más cerca</li> 
-                
-<p>Creemos que conectarnos con la naturaleza ayuda a construir un mundo mejor, y la escucha profunda es una buena forma de empezar.
+              Una conexión con la naturaleza a través de la escucha profunda usando tres "orejas" de distintos tamaños.</p>
+            <li> <b>La oreja más grande</b> diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
+             árboles en movimiento, mamiferos con vocalización de largo alcance </li> <p> Insertar audio ejemplo </p>
+                    <li> <b>La oreja mediana</b> útil para contemplar los vocalización de mamiferos, aves, sonidos de corto alcance como voces humanas y 
+                    todo lo que se encuentre entre 2 a 3 km según la fuente sonora</li> 
+                     <li> <b>La oreja pequeña</b> sirve para contemplar los sonidos más pequeños y granulares como insectos, susurros provocados por el viento, todo lo que se encuentra alrededor del punto de escucha dando la sensación de amplificación </li> 
+       <p>Pasar por estos tres tipos de escucha nos muestra las diferentes frecuencias a las que estamos expuestos constantemente, pero debido a nuestra poca conexión con nuestro entorno lo dejamos de percibir.</p>
+      <h4 className="text-black text-sm md:text-base font-light mb-2">UN EJERCICIO DE RECONEXIÓN</h4>
+<p>Conectarnos con la naturaleza ayuda a construir un mundo mejor, y la escucha profunda es una buena forma de empezar.
 Necesitamos comunidades que se escuchen entre sí y a su entorno para ser más resilientes y vivir en armonía con el planeta.
-El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, uno de los más importantes del Perú.</p>
+Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
+      
+
 
             
           </section>
@@ -63,7 +63,7 @@ El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, u
             {/* YouTube responsivo (16:9) */}
             <div className="relative w-full rounded-lg overflow-hidden shadow-lg" style={{ paddingTop: "56.25%" }}>
               <iframe
-                src="https://www.youtube.com/embed/kFy11JjJh0Q?si=QWO6ZOyqL8SrLhXd"
+                src="https://www.youtube.com/embed/RG5zCHvFN9s?si=Sr28caTLiKuJ-20u"
                 className="absolute inset-0 h-full w-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
@@ -92,12 +92,10 @@ El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, u
       <div className="max-w-6xl mx-auto px-6 lg:px-8 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <section className="space-y-4">
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900">EXPERIENCIA FÍSICA Y REAL</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">FÍSICO Y REAL</h2>
             <p className="text-sm leading-relaxed text-gray-600">
-              Todo lo que tiene vida vibra. El escuchador está compuesto por tres orejas que tienen diferentes
-              dimensiones y propósitos. Con la más pequeñas podrás reconocer los sonidos de los insectos más pequeños.
-              Con la mediana escucharás motores y voces humanas. Con la grande sentirás la fuerza del río, mamíferos y
-              aves.
+              Todo lo que tiene vida vibra. El escuchador está de material orgánico como madera, esteras, acero inoxidable y de materiales que puedan garantizar cierta supervivencia en una selva. La estructura
+              ha sido diseñada para adaptarse a diferentes tipos de ecosistemas y terrenos. 
             </p>
           </section>
 
@@ -132,26 +130,28 @@ El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, u
 
             <p className="text-base leading-relaxed text-gray-600">
               El escuchador da la bienvenida a una de las rutas más importantes del Parque Nacional Tingo María con un
-              paisaje sonoro increíble. La ruta empieza en el escuchador con un lavado de escucha, intentando
-              identificar todos los sonidos que aparecen en la naturaleza para luego empezar la caminata y encontrar. La
-              ruta empieza con una de las quebradas al lado derecho que desemboca en el Huallaga. Te recomendamos que
-              camines lentamente y guardes silencio. Obviamente evitar llevar parlantes o speakers, y si ves que alguien
-              lo lleva invítalo a que lo apague y escuche los sonidos.
+              paisaje sonoro increíble. La ruta empieza en el escuchador que puede servir como un lavado de nuestra escucha, reiniciando y siendo
+              cosncientes de nuestra percepción sonora. Podemos empezar intentando identificar
+              todos los sonidos que aparecen en la naturaleza para luego empezar la caminata y encontrar la primera catarata. 
+              La ruta empieza con una de las quebradas al lado izquierdo, estas quebradas desembocan en el Huallaga uno de los afluentes
+              del rio Amazonas. 
             </p>
+            <p>Camina lentamente y guardes silencio. Obviamente no lleves parlantes o speakers, y si ves que alguien
+              lo lleva invítalo a que lo apague y escuche los sonidos.</p>
 
             <div className="space-y-3">
               <div>
                 <strong className="text-gray-900">Ejercicio 1:</strong>
                 <span className="text-gray-600">
                   {" "}
-                  Intenta reconocer los sonidos más permanentes, los que siempre se repiten.
+                  Intenta reconocer los sonidos más permanentes, constantes y diferencialos con los que siempre se repiten.
                 </span>
               </div>
               <div>
                 <strong className="text-gray-900">Ejercicio 2:</strong>
                 <span className="text-gray-600">
                   {" "}
-                  Identifica los sonidos que no logras reconocer su fuente, si es un insecto ave o animal.
+                  Identifica los sonidos que no logras reconocer exactamente que se lo que son, si es que es un insecto, ave o animal.
                 </span>
               </div>
               <div>
@@ -185,7 +185,7 @@ El primer artefacto de escucha se instaló en el Parque Nacional Tingo María, u
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">CÓMO LLEGAR</h2>
             <p className="text-base leading-relaxed text-gray-600">
               Tingo María se encuentra conectada por la carretera central y un aeropuerto. Llegar a Tingo María por
-              cualquier medio es una experiencia fabulosa, ya que estamos hablando de la entrada de la selva. Una vez en
+              cualquier medio es una experiencia fabulosa, ya que estamos hablando de la entrada a la selva peruana. Una vez en
               Tingo María, puedes encontrar diferentes formas de llegar hasta el tercer sector donde se encuentra la
               catarata más próxima Gloriapata en el Parque Nacional Tingo María.
             </p>
