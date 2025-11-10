@@ -17,10 +17,10 @@ export default function ManifiestoPage() {
        {/* Grilla de 5 elementos */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {[
-              { img: "/atencion_plena.svg ", title: "Atención plena", text: "Estar dispuesto a vivir el presente, escuchar los detalles de la vida que habitan el entorno en el que estas, sin juzgar ningún fenómeno"},
-              { img: "/curiosidad_infinita.svg  ", title: "Curiosidad infinita", text: "Tenemos que cultivar la curiosidad por todas esos movimientos sutilez que ocurren ante nuestra escucha, escuchar con curiosidad" },
-              { img: "/reconocer_amable.svg", title: "Admira lo complejo ", text: "Cada sonido y vibración en un entorno natural nunca es gratuito, siempre esta vinculado a algún fenómeno natural, venga del ser que venga tiene una propósito " },
-              { img: "/profundo_respeto.svg", title: "Profundo respeto", text: "Nuestra presencia perturba, desde nuestros olores, sonidos y rastros. El respeto es solo el primer paso para activar la escucha como protección" },
+              { img: "/Atencion_plena.svg ", title: "Atención plena", text: "Estar dispuesto a vivir el presente, escuchar los detalles de la vida que habitan el entorno en el que estas, sin juzgar ningún fenómeno"},
+              { img: "/Curiosidad_infinita.svg  ", title: "Curiosidad infinita", text: "Tenemos que cultivar la curiosidad por todas esos movimientos sutilez que ocurren ante nuestra escucha, escuchar con curiosidad" },
+              { img: "/Reconocer_amable.svg", title: "Admira lo complejo ", text: "Cada sonido y vibración en un entorno natural nunca es gratuito, siempre esta vinculado a algún fenómeno natural, venga del ser que venga tiene una propósito " },
+              { img: "/Profundo_respeto.svg", title: "Profundo respeto", text: "Nuestra presencia perturba, desde nuestros olores, sonidos y rastros. El respeto es solo el primer paso para activar la escucha como protección" },
               { img: "/imaginacion_provocativa.svg", title: "Imaginación provocativa", text: "Imaginate como son los sonidos que escuchas, más allá de tu primera imagen mental" },
                { img: "/ser_un_paisaje.svg", title: "Ser uno con el paisajes", text: "Una vez consciente del paisajes sonoro que te envuelva, intenta moverte a su ritmo, hablar en su tono y orquestar con todo lo que suena a tu alrededor es la mejor manera de habitarlo" },
             ].map((item, i) => (
