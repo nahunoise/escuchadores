@@ -68,7 +68,7 @@ CONECTAR    </a>
             {[
               { img: "/portada_escuchador.png", title: "Realización de artefacto sonoro", text: "Desde los planos hasta la implementación, acomapañamos de principio a fin"},
               { img: "/caminata.png", title: "Diseño de rutas sonoras para poner el valor el paisaje sonoro", text: "Creamos rutas visitables para apreciar el paisaje sonoro de un área natural" },
-              { img: "/analisis_muestra.jpg", title: "Análisis y monitoreo de paisaje sonoro ", text: "Generamos información de valor para los espacios naturales desde identificación de especies, indices acústicos y. todos los datos que el sonido puede generar. " },
+              { img: "/Analisis_muestra.jpg", title: "Análisis y monitoreo de paisaje sonoro ", text: "Generamos información de valor para los espacios naturales desde identificación de especies, indices acústicos y. todos los datos que el sonido puede generar. " },
               
             ].map((item, i) => (
               <div key={i} className="bg-#FCF8ED rounded-xl shadow overflow-hidden">
