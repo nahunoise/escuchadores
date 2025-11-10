@@ -2,43 +2,61 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-[#EDF0EA]">
       {/* Hero Section */}
-      <section
-        className="relative h-[80vh] mb-16 flex items-center justify-start"
-        style={{
-          backgroundImage: "url('/tu-imagen.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}> 
-     
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 mx-auto w-full max-w-6xl px-6 lg:px-8">
-          <div className="max-w-2xl">
-            <h4 className="text-white text-sm md:text-base font-light mb-2">TODOS SOMOS ESCUCHADORES</h4>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-white mb-4">
-             ESCUCHAR PARA PROTEGERNOS
-            </h1>
-            <h4 className="text-white text-sm md:text-base font-light mb-8"> Así como hay miradores deben existir escuchadores, el primero ya lo instalamos en el PARQUE NACIONAL TINGO MARÍA</h4>
-            <a
-              href="#empezar"
-              className="inline-flex items-center justify-center rounded-lg border border-[#1E293B] bg-white px-12 h-9 text-large font-medium text-[#1E293B]
-                         hover:border-transparent hover:bg-[#1E293B] hover:text-white 
-                         active:bg-[#1E293B]
-                         focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1E293B] focus-visible:ring-offset-2
-                         disabled:opacity-30 disabled:cursor-not-allowed
-                         transition-colors duration-200 min-w-[250px]">
-DESCUBRIR            </a>
-          </div>
-        </div>
-      </section>
+
+<section className="relative h-[80vh] mb-16 flex items-center justify-start overflow-hidden bg-black">
+  <div className="absolute inset-0 overflow-hidden">
+    <iframe
+      src="https://www.youtube.com/embed/bZGUFO1iIcI?autoplay=1&mute=1&loop=1&playlist=bZGUFO1iIcI&controls=0&showinfo=0&modestbranding=1"
+      title="Video background"
+      frameBorder="0"
+      allow="autoplay; fullscreen"
+      style={{
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: '100vw',
+        height: 'calc(100vw * 9 / 16)',
+        minHeight: '100vh',
+        minWidth: '177.78vh', // asegura cobertura horizontal en pantallas altas
+      }}
+    />
+  </div>
+
+  <div className="absolute inset-0 bg-black/40" />
+  <div className="relative z-10 mx-auto w-full max-w-6xl px-6 lg:px-8 text-white">
+    <h4 className="text-sm md:text-base font-light mb-2">
+      TODOS SOMOS ESCUCHADORES
+    </h4>
+    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4">
+      ESCUCHAR PARA PROTEGERNOS
+    </h1>
+    <h4 className="text-sm md:text-base font-light mb-8">
+      Así como hay miradores deben existir escuchadores, el primero se encuentra en proceso de desintegración en el PARQUE NACIONAL TINGO MARÍA
+    </h4>
+    <a
+      href="#empezar"
+      className="inline-flex items-center justify-center rounded-lg border border-[#1E293B] bg-white px-12 h-9 text-large font-medium text-[#1E293B]
+                 hover:border-transparent hover:bg-[#1E293B] hover:text-white 
+                 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1E293B] focus-visible:ring-offset-2
+                 transition-colors duration-200 min-w-[250px]"
+    >
+      DESCUBRIR
+    </a>
+  </div>
+</section>
+
+
+
 
       <div className="max-w-6xl mx-auto px-6 lg:px-8 mb-16">
         <div  className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Sección texto */}
           <section id="empezar"  className="space-y-6">
             
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">CONEXIÓN SONORA E INMERSIVA</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">UNA EXCUSA PARA ESCUCHAR</h2>
             <p className="text-base leading-relaxed text-gray-600">
-              Una conexión con la naturaleza a través de la escucha profunda usando tres "orejas" de distintos tamaños.</p>
+              El escuchador es una excusa para promover la escucha. Hemos creado una serie de artefactos de escucha con tres tamaños de orejas.</p>
             <li> <b>La oreja más grande</b> diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
              árboles en movimiento, mamiferos con vocalización de largo alcance </li> <p> Insertar audio ejemplo </p>
                     <li> <b>La oreja mediana</b> útil para contemplar los vocalización de mamiferos, aves, sonidos de corto alcance como voces humanas y 
@@ -48,7 +66,7 @@ DESCUBRIR            </a>
       <h4 className="text-black text-sm md:text-base font-light mb-2">UN EJERCICIO DE RECONEXIÓN</h4>
 <p>Conectarnos con la naturaleza ayuda a construir un mundo mejor, y la escucha profunda es una buena forma de empezar.
 Necesitamos comunidades que se escuchen entre sí y a su entorno para ser más resilientes y vivir en armonía con el planeta.
-Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
+Instalamos el primer escuchador en el Parque Nacional Tingo María  </p>
       
 
 
@@ -94,16 +112,16 @@ Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
           <section className="space-y-4">
             <h2 className="text-xl md:text-2xl font-bold text-gray-900">FÍSICO Y REAL</h2>
             <p className="text-sm leading-relaxed text-gray-600">
-              Todo lo que tiene vida vibra. El escuchador está de material orgánico como madera, esteras, acero inoxidable y de materiales que puedan garantizar cierta supervivencia en una selva. La estructura
-              ha sido diseñada para adaptarse a diferentes tipos de ecosistemas y terrenos. 
+              Todo lo que tiene vida vibra. El escuchador está de material orgánico como madera, esteras y acero que la selva poco a poco esta siendo devorado por la selva, así que es probable que lo encuentres en algo que los humanos consideran deterioro, pero que no es más que el monte, la selva salvaje que es la parte de la vida. La estructura
+              ha sido diseñada para adaptarse a diferentes tipos de ecosistemas y terrenos.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-xl md:text-2xl font-bold text-gray-900">ESPACIO MEDITATIVO</h2>
             <p className="text-sm leading-relaxed text-gray-600">
-              El espacio se presenta como un baño de sonido para volver a calibrar nuestra percepción sonora. Respira 5
-              veces profundamente, escucha tu respiración y conecta con los sonidos que aparecen en cada oreja.
+              El espacio se presenta como un baño de sonido para volver a calibrar nuestra percepción sonora. Se sugiere respirar 5
+              veces profundamente, escucha tu respiración y conectar con los sonidos que aparecen en cada oreja.
             </p>
           </section>
 
@@ -111,7 +129,7 @@ Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
             <h2 className="text-xl md:text-2xl font-bold text-gray-900">FRAGILIDAD SONORA</h2>
             <p className="text-sm leading-relaxed text-gray-600">
               Urge una forma más compasiva de relacionarnos con nuestro entorno. Ser un escuchador significa tener
-              compasión y encontrar belleza en el paisaje sonoro.
+              compasión y encontrar belleza en el paisaje sonoro. 
             </p>
           </section>
         </div>
@@ -129,36 +147,45 @@ Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">UNA CAMINATA SONORA</h2>
 
             <p className="text-base leading-relaxed text-gray-600">
+              Es posible hacer una caminata sonoro en cualquier entorno. 
               El escuchador da la bienvenida a una de las rutas más importantes del Parque Nacional Tingo María con un
-              paisaje sonoro increíble. La ruta empieza en el escuchador que puede servir como un lavado de nuestra escucha, reiniciando y siendo
+              paisaje sonoro único. La ruta empieza en el escuchador que puede servir como un lavado de nuestra escucha, reiniciando y siendo
               cosncientes de nuestra percepción sonora. Podemos empezar intentando identificar
               todos los sonidos que aparecen en la naturaleza para luego empezar la caminata y encontrar la primera catarata. 
               La ruta empieza con una de las quebradas al lado izquierdo, estas quebradas desembocan en el Huallaga uno de los afluentes
               del rio Amazonas. 
             </p>
-            <p>Camina lentamente y guardes silencio. Obviamente no lleves parlantes o speakers, y si ves que alguien
+            <p>Camina lentamente y guardes silencio para que puedan aparecer los sonidos. Obviamente no lleves parlantes o speakers, y si ves que alguien
               lo lleva invítalo a que lo apague y escuche los sonidos.</p>
+        
 
             <div className="space-y-3">
               <div>
-                <strong className="text-gray-900">Ejercicio 1:</strong>
+                <strong className="text-gray-900">Reconocimiento de lo que se repite y es constante:</strong>
                 <span className="text-gray-600">
                   {" "}
                   Intenta reconocer los sonidos más permanentes, constantes y diferencialos con los que siempre se repiten.
                 </span>
               </div>
               <div>
-                <strong className="text-gray-900">Ejercicio 2:</strong>
+                <strong className="text-gray-900">Reconoce lo extraordinario y eventual:</strong>
                 <span className="text-gray-600">
                   {" "}
-                  Identifica los sonidos que no logras reconocer exactamente que se lo que son, si es que es un insecto, ave o animal.
+                  Identifica los sonidos que aparecen eventualmente y que puedes identificar como un ave, insecto, personas o movimiento natural. 
                 </span>
               </div>
               <div>
-                <strong className="text-gray-900">Ejercicio 3:</strong>
+                <strong className="text-gray-900">Reimagina lo que no reconoces:</strong>
                 <span className="text-gray-600">
                   {" "}
-                  Imagina cómo se ven esos sonidos, cómo son esos animales, insectos o plantas.
+                  Imagina cómo se ven esos sonidos que tu mente no llega a reconocer, cómo son esos animales, insectos o plantas.
+                </span>
+              </div>
+              <div>
+                <strong className="text-gray-900">Estas pautas son validas para cualquier paseo sonoro</strong>
+                <span className="text-gray-600">
+                  {" "}
+                  Un paseo sonoro es accesible y gratuito para todos. Si eres consciente de tus movimientos podras ser consciente de tu silencio. 
                 </span>
               </div>
             </div>
@@ -206,35 +233,26 @@ Instalamos el primer escuchador en el Parque Nacional Tingo María </p>
       </section>
 
       <div className="max-w-6xl mx-auto px-6 lg:px-8 mb-16 text-center">
-        <a
-          href="https://open.spotify.com/playlist/4FZgnX88YC2oLipzEh4FpY?si=JSHHFiAzRhywgR1ZZ8Strg"
-          className="inline-flex items-center gap-3 px-6 py-3 bg-[#EDF0EA] text-white rounded-lg font-medium hover:bg-[#EDF0EA] transition-colors duration-200"
-        >
-          <img src="/spotify-icon.svg" alt="Spotify" className="w-6 h-6" />
-          Escucha la playlist
-        </a>
+       <a
+  href="https://open.spotify.com/playlist/4FZgnX88YC2oLipzEh4FpY?si=JSHHFiAzRhywgR1ZZ8Strg"
+  className="inline-flex items-center gap-4 px-6 py-3 bg-[#EDF0EA] text-[#1E293B] rounded-lg font-medium hover:bg-[#dfe3da] transition-colors duration-200"
+>
+  <img src="/spotify-icon.svg" alt="Spotify" className="w-20 h-20" />
+  Los paisajes sonoros donde podría existir un escuchador
+</a>
       </div>
+         <div className="flex justify-center p-8">
+      <iframe
+        src="https://escuchadores.substack.com/embed"
+        width="2700"
+        height="350"
+        style={{ border: '1px solid #ffffffff', background: 'white' }}
+        frameBorder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
+  
 
-      <footer className="bg-gray-100 px-6 py-12">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
-            <div>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                Proyecto producido y realizado por <br />
-                <span className="font-bold text-gray-900">Nahun Saldaña Macedo</span> <br />
-                2025 Copyleft - Piratea y difunde
-              </p>
-            </div>
-            <div className="space-y-2">
-              <p className="text-sm text-gray-700">www.instagram.com/escuchadores</p>
-              <p className="text-sm text-gray-700">nahunoise@gmail.com</p>
-            </div>
-            <div className="flex justify-center md:justify-end">
-              <img src="logo_escuchadores_desktop.svg" alt="Logo Escuchadores" className="w-20 h-auto" />
-            </div>
-          </div>
-        </div>
-      </footer>
     </main>
   )
 }
