@@ -1,9 +1,9 @@
 import "./globals.css"
 import { Rubik } from "next/font/google"
 const siteUrl = "https://www.escuchadores.com"
-const titleDefault = "Escuchadores — Parque Nacional Tingo María"
+const titleDefault = "Escuchadores — Protegienddo la naturaleza desde la escucha y el sonido"
 const description =
-  "Proyecto de escucha profunda en el Parque Nacional Tingo María (Perú). Una experiencia inmersiva para proteger la vida a través del sonido."
+  "Plataforma que pone el valor la riquez sonoro de las áreas naturales con la ayuda de la ciencia, tecnologia y arte. Una experiencia inmersiva para proteger la vida a través del sonido."
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
