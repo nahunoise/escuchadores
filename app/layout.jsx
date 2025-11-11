@@ -108,7 +108,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
          <footer className="text-center py-8 text-sm text-gray-500">
-  © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por www.naun.xyz.
+  © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por www.naun.xyz Usamos cookies técnicas y de Substack. Más información en nuestra <a href="/politica-de-cookies" target="_blank">Política de cookies</a>.
 </footer>
       </body>
      
