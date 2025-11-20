@@ -1,9 +1,9 @@
 import "./globals.css"
 import { Rubik } from "next/font/google"
 const siteUrl = "https://www.escuchadores.com"
-const titleDefault = "Escuchadores — Protegienddo la naturaleza desde la escucha y el sonido"
+const titleDefault = "Escuchadores — Parque Nacional Tingo María"
 const description =
-  "Plataforma que pone el valor la riquez sonoro de las áreas naturales con la ayuda de la ciencia, tecnologia y arte. Una experiencia inmersiva para proteger la vida a través del sonido."
+  "Proyecto de escucha profunda en el Parque Nacional Tingo María (Perú). Una experiencia inmersiva para proteger la vida a través del sonido."
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -107,8 +107,18 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-         <footer className="text-center py-8 text-sm text-gray-500">
-  © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por www.naun.xyz Usamos cookies técnicas y de Substack. Más información en nuestra <a href="/politica-de-cookies" target="_blank">Política de cookies</a>.
+         <footer className="text-center py-8 text-sm text-gray-500"> 
+          
+  © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por Nahun Saldaña Macedo www.naun.xyz 
+  <p className="text-sm text-gray-700">www.instagram.com/escuchadores</p>
+  
+  <div className="flex justify-center my-6">
+  <img
+    src="logo_escuchadores_desktop.svg"
+    alt="Logo Escuchadores"
+    className="w-20 h-auto"
+  />
+</div>
 </footer>
       </body>
      
