@@ -32,7 +32,7 @@ export default function Home() {
       ESCUCHAR PARA PROTEGERNOS
     </h1>
     <h4 className="text-sm md:text-base font-light mb-8">
-      Así como hay miradores deben existir escuchadores, el primero se encuentra en proceso de desintegración en el PARQUE NACIONAL TINGO MARÍA
+      Así como existen miradores, deben existir escuchadores; el primero se encuentra en proceso de desintegración en el Parque Nacional Tingo María. 
     </h4>
     <a
       href="#empezar"
@@ -54,14 +54,162 @@ export default function Home() {
           {/* Sección texto */}
           <section id="empezar"  className="space-y-6">
             
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">UNA EXCUSA PARA ESCUCHAR</h2>
-            <p className="text-base leading-relaxed text-gray-600">
-              El escuchador es una excusa para promover la escucha. Hemos creado una serie de artefactos de escucha con tres tamaños de orejas.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">LA PROTECCIÓN DE PAISAJES SONOROS DESDE LA ESCUCHA</h2>
+            <p className="text-base leading-relaxed text-gray-600"> 
+              Los cambios en el paisaje sonoro pueden indicar alteraciones en el entorno, como la pérdida de biodiversidad o la presencia de amenazas ambientales. 
+              Ahora con la ayuda de la tecnología, podemos registrar y analizar estos sonidos para monitorear la salud de los ecosistemas a lo largo del tiempo.
+            </p>
+            <p className="text-base leading-relaxed text-gray-600"> Nuestro ultimo proyecto es el diseño y construcción del primer escuchador en el Parque Nacional Tingo María, Perú. 
+              Está compuesto por tres "orejas" de diferentes tamaños que permiten escuchadr distintos tipos de rangos sonoros de la naturaleza.
+            </p>
+
             <li> <b>La oreja más grande</b> diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
-             árboles en movimiento, mamiferos con vocalización de largo alcance </li> <p> Insertar audio ejemplo </p>
+             árboles en movimiento, mamiferos con vocalización de largo alcance </li> 
+             
+           <div className="mt-4">
+  <iframe
+    width="100%"
+    height="166"
+    scrolling="no"
+    frameBorder="no"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2215809548&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+    className="rounded-lg shadow-lg"
+  ></iframe>
+
+  <div
+    style={{
+      fontSize: "10px",
+      color: "#cccccc",
+      lineBreak: "anywhere",
+      wordBreak: "normal",
+      overflow: "hidden",
+      whiteSpace: "nowrap",
+      textOverflow: "ellipsis",
+      fontFamily:
+        "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
+      fontWeight: 100,
+    }}
+  >
+    <a
+      href="https://soundcloud.com/escuchadores-453834534"
+      title="escuchadores"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      escuchadores
+    </a>{" "}
+    ·{" "}
+    <a
+      href="https://soundcloud.com/escuchadores-453834534/oreja_grande-1"
+      title="Oreja_grande"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      Oreja_grande
+    </a>
+  </div>
+</div>
+
+
+
+
                     <li> <b>La oreja mediana</b> útil para contemplar los vocalización de mamiferos, aves, sonidos de corto alcance como voces humanas y 
                     todo lo que se encuentre entre 2 a 3 km según la fuente sonora</li> 
+
+                    <div className="mt-4">
+  <iframe
+    width="100%"
+    height="166"
+    scrolling="no"
+    frameBorder="no"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2215809545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+    className="rounded-lg shadow-lg"
+  ></iframe>
+
+  <div
+    style={{
+      fontSize: "10px",
+      color: "#cccccc",
+      lineBreak: "anywhere",
+      wordBreak: "normal",
+      overflow: "hidden",
+      whiteSpace: "nowrap",
+      textOverflow: "ellipsis",
+      fontFamily:
+        "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
+      fontWeight: 100,
+    }}
+  >
+    <a
+      href="https://soundcloud.com/escuchadores-453834534"
+      title="escuchadores"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      escuchadores
+    </a>{" "}
+    ·{" "}
+    <a
+      href="https://soundcloud.com/escuchadores-453834534/oreja_mediana-2"
+      title="Oreja mediana"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      Oreja mediana
+    </a>
+  </div>
+</div>
+
+
                      <li> <b>La oreja pequeña</b> sirve para contemplar los sonidos más pequeños y granulares como insectos, susurros provocados por el viento, todo lo que se encuentra alrededor del punto de escucha dando la sensación de amplificación </li> 
+
+<div className="mt-4">
+  <iframe
+    width="100%"
+    height="166"
+    scrolling="no"
+    frameBorder="no"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2215809551&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+    className="rounded-lg shadow-lg"
+  ></iframe>
+
+  <div
+    style={{
+      fontSize: "10px",
+      color: "#cccccc",
+      lineBreak: "anywhere",
+      wordBreak: "normal",
+      overflow: "hidden",
+      whiteSpace: "nowrap",
+      textOverflow: "ellipsis",
+      fontFamily:
+        "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
+      fontWeight: 100,
+    }}
+  >
+    <a
+      href="https://soundcloud.com/escuchadores-453834534"
+      title="escuchadores"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      escuchadores
+    </a>{" "}
+    ·{" "}
+    <a
+      href="https://soundcloud.com/escuchadores-453834534/oreja_pequena-3"
+      title="Oreja pequeña"
+      target="_blank"
+      style={{ color: "#cccccc", textDecoration: "none" }}
+    >
+      Oreja pequeña
+    </a>
+  </div>
+</div>
+
        <p>Pasar por estos tres tipos de escucha nos muestra las diferentes frecuencias a las que estamos expuestos constantemente, pero debido a nuestra poca conexión con nuestro entorno lo dejamos de percibir.</p>
       <h4 className="text-black text-sm md:text-base font-light mb-2">UN EJERCICIO DE RECONEXIÓN</h4>
 <p>Conectarnos con la naturaleza ayuda a construir un mundo mejor, y la escucha profunda es una buena forma de empezar.
