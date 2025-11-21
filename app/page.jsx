@@ -287,6 +287,23 @@ export default function Home() {
         scrolling="no"
       ></iframe>
     </div>
+    <div>
+      <h1 className="text-center text-2xl font-bold mb-4">Agradecimientos</h1> 
+      <p className="max-w-4xl mx-auto text-center mb-8"> Este proyecto no hubiera sido posible sin la colaboración y apoyo de diversas personas e instituciones. <br></br> 
+      <img src="/logo_sernarp.jpg" alt="SERNARP" className="inline w-20 h-14 mb-1 mr-2"/>
+      <img src="/logo_ministerio.png" alt="corazón" className="inline w-30 h-6 mr-2"/>
+      <img src="/logo_kai.jpg" alt="corazón" className="inline w-20 h-16 mr-2 mb-1"/>
+      {/*<img src="/senarp.png" alt="corazón" className="inline w-6 h-6 mb-1"/>*/}
+      </p>
+      <p className="text-sm text-gray-400 text-center mb-4"> Personas maravillosas que formaron parte diferentes partes del proceso, arquitectura de estructura principal: Harold Raúl Clavijo, <br></br>Fabriación de orejas: Sergio Abugattas <br></br>
+Construcción estructura: William Puñaraqui Quispe, Darío, Luis Salcedo Huamani <br></br>
+Diseño y decoración: Evelyn Saldaña Macedo <br></br>
+Grabación y video de instalaación: Carlo Rodriguez <br></br>    
+Video lanzamiento: Giselle Angeles  <br></br>
+Apoyo incondicional: Cesar A.Ipenza, Victoria I. Parco Lizano, Karla Ibette, Luis Flores Cordero, Sofia Café, Chaly Macedo Silva, Rister Macedo Silva, Marvin Macedo Silva, Julieta, Juan Isuiza Sanchez, Carlos Garavito, Brackus, Fani Saldaña, Nahun Saldaña Davila, Cotita Macedo Panduro, Beto Pietro, Sharon Grisell, Elvis y Gianna
+  </p>
+
+    </div>
   
 
     </main>
