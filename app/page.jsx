@@ -57,14 +57,13 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">LA PROTECCIÓN DE PAISAJES SONOROS DESDE LA ESCUCHA</h2>
             <p className="text-base leading-relaxed text-gray-600"> 
               Los cambios en el paisaje sonoro pueden indicar alteraciones en el entorno, como la pérdida de biodiversidad o la presencia de amenazas ambientales. 
-              Ahora con la ayuda de la tecnología, podemos registrar y analizar estos sonidos para monitorear la salud de los ecosistemas a lo largo del tiempo.
+              Con la ayuda de la tecnología, podemos registrar y analizar estas frecuencias para monitorear la salud de los ecosistemas. 
             </p>
-            <p className="text-base leading-relaxed text-gray-600"> Nuestro ultimo proyecto es el diseño y construcción del primer escuchador en el Parque Nacional Tingo María, Perú. 
-              Está compuesto por tres "orejas" de diferentes tamaños que permiten escuchadr distintos tipos de rangos sonoros de la naturaleza.
+            <p className="text-base leading-relaxed text-gray-600"> Nuestro ultimo artefacto de escucha construido está compuesto por tres "orejas" de diferentes tamaños que permiten escuchar distintos tipos de rangos sonoros de la naturaleza.
             </p>
 
-            <li> <b>La oreja más grande</b> diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
-             árboles en movimiento, mamiferos con vocalización de largo alcance </li> 
+            <li> <b>La oreja más grande</b> fue diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, 
+             árboles en movimiento así como mamiferos con vocalización de largo alcance </li> 
              
     <div className="mt-4">
       <iframe
@@ -81,7 +80,7 @@ export default function Home() {
 
 
                     <li> <b>La oreja mediana</b> útil para contemplar los vocalización de mamiferos, aves, sonidos de corto alcance como voces humanas y 
-                    todo lo que se encuentre entre 2 a 3 km según la fuente sonora</li> 
+                    todo lo que se encuentre entre 2 a 3 km</li> 
 
                     <div className="mt-4">
       <iframe
@@ -123,8 +122,12 @@ export default function Home() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
                 title="Video YouTube"
-              />
+              /> 
+              
+
+
             </div>
+            
           </section>
         </div>
       </div>
