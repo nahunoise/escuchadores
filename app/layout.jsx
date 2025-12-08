@@ -1,7 +1,7 @@
 import "./globals.css"
 import { Rubik } from "next/font/google"
 const siteUrl = "https://www.escuchadores.com"
-const titleDefault = "Escuchadores — Parque Nacional Tingo María"
+const titleDefault = "Escuchadores — Todos somos escuchadores"
 const description =
   "Escuchadores convierte paisajes sonoros naturales en activos: Espacios de escucha protegidos que fomentan la conservación y generan valor ecológico y económico"
 

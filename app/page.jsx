@@ -302,9 +302,9 @@ export default function Home() {
       <p className="text-sm text-gray-400 text-center mb-4"> Personas maravillosas que formaron parte diferentes partes del proceso, arquitectura de estructura principal: Harold Raúl Clavijo, <br></br>Fabriación de orejas: Sergio Abugattas <br></br>
 Construcción estructura: William Puñaraqui Quispe, Darío, Luis Salcedo Huamani <br></br>
 Diseño y decoración: Evelyn Saldaña Macedo <br></br>
-Grabación y video de instalaación: Carlo Rodriguez <br></br>    
+Grabación y video de instalación: Carlo Rodriguez <br></br>    
 Video lanzamiento: Giselle Angeles  <br></br>
-Apoyo incondicional: Cesar A.Ipenza, Victoria I. Parco Lizano, Karla Ibette, Luis Flores Cordero, Sofia Café, Chaly Macedo Silva, Rister Macedo Silva, Marvin Macedo Silva, Julieta, Juan Isuiza Sanchez, Carlos Garavito, Brackus, Fani Saldaña, Nahun Saldaña Davila, Cotita Macedo Panduro, Beto Pietro, Sharon Grisell, Elvis, Gianna, Oswin Kruger, entre otros que ayudaron en diferentes procesos.
+Apoyo incondicional: Cesar A.Ipenza, Victoria I. Parco Lizano, Karla Ibette, Luis Flores Cordero, Sofia Café, Chaly Macedo Silva, Rister Macedo Silva, Marvin Macedo Silva, Julieta, Juan Isuiza Sanchez, Carlos Garavito, Brackus, Fani Saldaña, Nahun Saldaña Davila, Cotita Macedo Panduro, Beto Pietro, Sharon Grisell, Elvis, Gianna, Joaquin Pinedo, Oswin Kruger, entre otros que ayudaron en diferentes procesos.
   </p>
 
     </div>
