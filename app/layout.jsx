@@ -23,7 +23,7 @@ export const metadata = {
     locale: "es_PE",
     images: [
       {
-        url: "/nahun_escuchando.png",
+        url: "https://www.escuchadores.com/nahun_escuchando.png",
         width: 1200,
         height: 630,
         alt: "Escuchadores — Todos somos escuchadores",
