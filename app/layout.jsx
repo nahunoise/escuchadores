@@ -1,5 +1,7 @@
 import "./globals.css"
 import { Rubik } from "next/font/google"
+import CookieBanner from "/components/CookieBanner.jsx" 
+
 const siteUrl = "https://www.escuchadores.com"
 const titleDefault = "Escuchadores — Todos somos escuchadores"
 const description =
@@ -107,6 +109,10 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
+
+         {/* Banner de cookies */}
+        <CookieBanner />
+
          <footer className="text-center py-8 text-sm text-gray-500"> 
           
   © {new Date().getFullYear()} Escuchadores. Proyecto producido y realizado por Nahun Saldaña Macedo www.naun.xyz 
