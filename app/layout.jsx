@@ -1,6 +1,6 @@
 import "./globals.css"
 import { Rubik } from "next/font/google"
-import CookieBanner from "/components/CookieBanner" 
+import CookieBanner from "/components/cookieBanner" 
 
 const siteUrl = "https://www.escuchadores.com"
 const titleDefault = "Escuchadores — Todos somos escuchadores"
