@@ -21,10 +21,10 @@ export const metadata = {
     locale: "es_PE",
     images: [
       {
-        url: "/og.jpg",
+        url: "/nahun_escuchando.png",
         width: 1200,
         height: 630,
-        alt: "Escuchadores — Parque Nacional Tingo María",
+        alt: "Escuchadores — Todos somos escuchadores",
       },
     ],
   },
