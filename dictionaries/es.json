@@ -1,0 +1,101 @@
+
+{
+    "contacto": {
+    "title": "Mantengamos la conexión",
+    "alt_photo": "Fotografía del proyecto escuchador",
+    "alt_walk": "Caminata en el proyecto escuchador"
+  },
+    "manifiesto": {
+    "title_1": "TODOS SOMOS ESCUCHADORES",
+    "title_2": "Urge una forma más compasiva de relacionarnos con nuestro entorno.",
+    "subtitle": "Un escuchador no es un objeto para escuchar, es una actitud, somos escuchadores si lo queremos y aquí sus principios:",
+    "principles": [
+      { "img": "/Atencion_plena.svg", "title": "Atención plena", "text": "Estar dispuesto a vivir el presente, escuchar los detalles de la vida que habitan el entorno en el que estas, sin juzgar ningún fenómeno." },
+      { "img": "/Curiosidad_infinita.svg", "title": "Curiosidad infinita", "text": "Tenemos que cultivar la curiosidad por todas esos movimientos sutiles que ocurren ante nuestra escucha." },
+      { "img": "/Reconocer_amable.svg", "title": "Admira lo complejo", "text": "Cada sonido y vibración en un entorno natural nunca es gratuito, siempre está vinculado a algún fenómeno natural." },
+      { "img": "/Profundo_respeto.svg", "title": "Profundo respeto", "text": "Nuestra presencia perturba. El respeto es solo el primer paso para activar la escucha como protección." },
+      { "img": "/imaginacion_provocativa.svg", "title": "Imaginación provocativa", "text": "Imagínate cómo son los sonidos que escuchas, más allá de tu primera imagen mental." },
+      { "img": "/ser_un_paisaje.svg", "title": "Ser uno con el paisaje", "text": "Una vez consciente del paisaje sonoro que te envuelve, intenta moverte a su ritmo y orquestar con todo lo que suena." }
+    ]
+  },
+    "servicios": {
+    "hero_subtitle": "Conoces algún paisaje sonoro que no debería desaparecer...",
+    "hero_title": "HACER PARA ESCUCHAR",
+    "hero_question": "¿Quieres instalar un escuchador o conoces un lugar donde sería importante instalar uno?",
+    "button_connect": "CONECTAR",
+    "pillar1_title": "PROTEGER ECOSISTEMAS CON LA AYUDA DEL SONIDO",
+    "pillar1_desc": "Sabemos que una de las formas de proteger algo es conociéndolo...",
+    "pillar2_title": "USO DE LA CIENCIA Y LA TECNOLOGÍA",
+    "pillar2_desc": "Creemos que la ciencia y la tecnología debe estar al servicio de la protección de la vida...",
+    "pillar3_title": "PROTEGER DESDE LA COMUNIDAD",
+    "pillar3_desc": "No existe ninguna protección posible si es que no se involucra a toda la comunidad...",
+    "list_title": "SERVICIOS",
+    "items": [
+      { "img": "/portada_escuchador.png", "title": "Realización de artefacto sonoro", "text": "Desde los planos hasta la implementación, acompañamos de principio a fin" },
+      { "img": "/caminata.png", "title": "Diseño de rutas sonoras", "text": "Creamos rutas visitables para apreciar el paisaje sonoro de un área natural" },
+      { "img": "/Analisis_muestra.jpg", "title": "Análisis y monitoreo", "text": "Generamos información de valor desde identificación de especies hasta índices acústicos." }
+    ]
+  },
+
+    "nav": {
+    "inicio": "Inicio",
+    "ser": "Ser",
+    "hacer": "Hacer",
+    "contacto": "Contacto"
+  },
+    
+  "hero": {
+    "subtitle_top": "TODOS SOMOS ESCUCHADORES",
+    "title": "ESCUCHAR PARA PROTEGERNOS",
+    "description": "Así como existen miradores, deben existir escuchadores; el primero se encuentra en proceso de desintegración en el Parque Nacional Tingo María.",
+    "button": "DESCUBRIR"
+  },
+  "content": {
+    "main_title": "LA PROTECCIÓN DE PAISAJES SONOROS DESDE LA ESCUCHA",
+    "description_1": "Los cambios en el paisaje sonoro pueden indicar alteraciones en el entorno, como la pérdida de biodiversidad o la presencia de amenazas ambientales. Con la ayuda de la tecnología, podemos registrar y analizar estas frecuencias para monitorear la salud de los ecosistemas.",
+    "description_2": "Nuestro último artefacto de escucha construido está compuesto por tres 'orejas' de diferentes tamaños que permiten escuchar distintos tipos de rangos sonoros de la naturaleza."
+  },
+  "ears": {
+    "large": {
+      "title": "La oreja más grande",
+      "desc": "fue diseñada para escuchar los sonidos geofísicos más grandes, como sonidos de rios, cataratas, vientos, árboles en movimiento así como mamiferos con vocalización de largo alcance."
+    },
+    "medium": {
+      "title": "La oreja mediana",
+      "desc": "útil para contemplar la vocalización de mamiferos, aves, sonidos de corto alcance como voces humanas y todo lo que se encuentre entre 2 a 3 km."
+    },
+    "small": {
+      "title": "La oreja pequeña",
+      "desc": "sirve para contemplar los sonidos más pequeños y granulares como insectos, susurros provocados por el viento, todo lo que se encuentra alrededor del punto de escucha."
+    }
+  },
+  "quote": {
+    "line1": "SI HAY VIDA, HAY SONIDOS.",
+    "line2": "LOS SONIDOS NOS ATRAVIESAN Y TRANSFORMAN",
+    "sub": "Para cuidarnos primero tenemos que escucharnos, no hay empatía posible sin una escucha honesta y lo mismo pasa con todos los seres que habitamos en este planeta."
+  },
+  "features": {
+    "physical": {
+      "title": "FÍSICO Y REAL",
+      "desc": "Todo lo que tiene vida vibra. El escuchador está hecho de material orgánico como madera, esteras y acero que la selva poco a poco esta devorando."
+    },
+    "meditative": {
+      "title": "ESPACIO MEDITATIVO",
+      "desc": "El espacio se presenta como un baño de sonido para volver a calibrar nuestra percepción sonora. Se sugiere respirar 5 veces profundamente."
+    },
+    "fragility": {
+      "title": "FRAGILIDAD SONORA",
+      "desc": "Urge una forma más compasiva de relacionarnos con nuestro entorno. Ser un escuchador significa tener compasión y encontrar belleza en el paisaje sonoro."
+    }
+  },
+  "footer": {
+    "acknowledgments": "Agradecimientos",
+    "team_credits": "Personas maravillosas que formaron parte de diferentes partes del proceso..."
+
+  }
+
+  
+}
+
+
+

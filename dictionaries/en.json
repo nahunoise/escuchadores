@@ -1,0 +1,97 @@
+{
+    "contacto": {
+    "title": "Let's stay connected",
+    "alt_photo": "Photograph of the listener project",
+    "alt_walk": "Walking session at the listener project"
+  },
+    "manifiesto": {
+    "title_1": "WE ARE ALL LISTENERS",
+    "title_2": "We urge a more compassionate way of relating to our environment.",
+    "subtitle": "A listener is not an object for listening, it is an attitude; we are listeners if we choose to be, and here are its principles:",
+    "principles": [
+      { "img": "/Atencion_plena.svg", "title": "Mindfulness", "text": "Being willing to live in the present, listening to the details of life inhabiting your surroundings without judgment." },
+      { "img": "/Curiosidad_infinita.svg", "title": "Infinite Curiosity", "text": "We must cultivate curiosity for all those subtle movements that occur before our ears." },
+      { "img": "/Reconocer_amable.svg", "title": "Admire Complexity", "text": "Every sound and vibration in a natural environment is never random; it is always linked to a natural phenomenon." },
+      { "img": "/Profundo_respeto.svg", "title": "Deep Respect", "text": "Our presence disturbs. Respect is only the first step to activate listening as a form of protection." },
+      { "img": "/imaginacion_provocativa.svg", "title": "Provocative Imagination", "text": "Imagine what the sounds you hear look like, moving beyond your first mental image." },
+      { "img": "/ser_un_paisaje.svg", "title": "Becoming One with the Landscape", "text": "Once aware of the soundscape surrounding you, try to move at its rhythm and orchestrate with everything that sounds." }
+    ]
+  },
+    "servicios": {
+    "hero_subtitle": "Do you know a soundscape that shouldn't disappear and that you want to protect...",
+    "hero_title": "DOING TO LISTEN",
+    "hero_question": "Do you want to install a listener or know a place where it would be important to install one?",
+    "button_connect": "CONNECT",
+    "pillar1_title": "PROTECTING ECOSYSTEMS THROUGH SOUND",
+    "pillar1_desc": "We know that one way to protect something is by knowing it, which is why we support organizations interested in care and regeneration...",
+    "pillar2_title": "USE OF SCIENCE AND TECHNOLOGY",
+    "pillar2_desc": "We believe science and technology should be at the service of protecting life and never the other way around.",
+    "pillar3_title": "COMMUNITY-BASED PROTECTION",
+    "pillar3_desc": "No protection is possible without involving the entire community upon which a natural area depends.",
+    "list_title": "SERVICES",
+    "items": [
+      { "img": "/portada_escuchador.png", "title": "Sound Artifact Creation", "text": "From blueprints to implementation, we accompany the process from start to finish." },
+      { "img": "/caminata.png", "title": "Sound Route Design", "text": "We create visitable routes to appreciate the soundscape of a natural area." },
+      { "img": "/Analisis_muestra.jpg", "title": "Analysis and Monitoring", "text": "We generate valuable information from species identification to acoustic indices." }
+    ]
+  },
+
+    "nav": {
+    "inicio": "Home",
+    "ser": "Be",
+    "hacer": "Do",
+    "contacto": "Contact"
+  },
+  "footer": {
+    "credits": "Project produced and directed by Nahun Saldaña Macedo www.naun.xyz"
+  },
+
+  "hero": {
+    "subtitle_top": "WE ARE ALL LISTENERS",
+    "title": "LISTENING TO PROTECT OURSELVES",
+    "description": "Just as there are viewpoints, there must be listeners; the first one is in the process of disintegration in the Tingo María National Park.",
+    "button": "DISCOVER"
+  },
+  "content": {
+    "main_title": "SOUNDSCAPE PROTECTION THROUGH LISTENING",
+    "description_1": "Changes in the soundscape can indicate alterations in the environment, such as biodiversity loss or environmental threats. With technology, we can record and analyze these frequencies to monitor ecosystem health.",
+    "description_2": "Our latest built listening artifact consists of three 'ears' of different sizes that allow us to listen to different types of natural sound ranges."
+  },
+  "ears": {
+    "large": {
+      "title": "The largest ear",
+      "desc": "was designed to listen to major geophysical sounds, such as rivers, waterfalls, winds, moving trees, as well as mammals with long-range vocalization."
+    },
+    "medium": {
+      "title": "The medium ear",
+      "desc": "useful for contemplating the vocalization of mammals, birds, short-range sounds like human voices, and everything within 2 to 3 km."
+    },
+    "small": {
+      "title": "The small ear",
+      "desc": "serves to contemplate smaller and more granular sounds such as insects, whispers caused by the wind, and everything around the listening point."
+    }
+  },
+  "quote": {
+    "line1": "IF THERE IS LIFE, THERE ARE SOUNDS.",
+    "line2": "SOUNDS PIERCE AND TRANSFORM US",
+    "sub": "To take care of ourselves, we first have to listen to each other; there is no empathy possible without honest listening."
+  },
+  "features": {
+    "physical": {
+      "title": "PHYSICAL AND REAL",
+      "desc": "Everything that has life vibrates. The listener is made of organic materials like wood, mats, and steel that the jungle is slowly reclaiming."
+    },
+    "meditative": {
+      "title": "MEDITATIVE SPACE",
+      "desc": "The space presents itself as a sound bath to recalibrate our sound perception. We suggest taking 5 deep breaths."
+    },
+    "fragility": {
+      "title": "SOUND FRAGILITY",
+      "desc": "We urge a more compassionate way of relating to our environment. Being a listener means having compassion and finding beauty in the soundscape."
+    }
+  },
+  "footer": {
+    "acknowledgments": "Acknowledgments",
+    "team_credits": "Wonderful people who were part of different stages of the process..."
+  }
+}

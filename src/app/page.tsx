@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getDictionary } from '../../dictionaries'
 
 export default function Home() {
   return (

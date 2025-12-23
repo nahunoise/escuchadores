@@ -1,4 +1,4 @@
-// components/CookieBanner.js
+// components/CookieBanner.jsx
 "use client";
 import { useState, useEffect } from 'react';
 
